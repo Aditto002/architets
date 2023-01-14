@@ -56,3 +56,34 @@ nav{
     border-radius: 8px;
     padding-bottom: 45px;
 }
+.main-contener{
+    display: grid;
+    grid-template-columns: 342px 342px;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+.main-section{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    padding: 85px 100px 130px 200px;
+}
+.features-title{
+      color: #727272;
+      font-size: 45px;
+      font-weight: 700;
+      padding-bottom: 24px;
+}
+.black{
+    color: #131313;
+}
+.color{
+    color: #FF900E;
+}
+.features-paragraph{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 30px;
+
+}
