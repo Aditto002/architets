@@ -2,7 +2,7 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
-
+/*set header background*/
 .header {
     background: rgba(255, 144, 14, 0.1);
 
@@ -32,7 +32,7 @@ nav {
 
 .header-brand {
     text-align: center;
-    padding: 0px 410px 30px 410px;
+    padding: 0px 300px 30px 300px;
 }
 
 .header-brand-title {
@@ -46,7 +46,7 @@ nav {
     text-align: center;
     padding-bottom: 50px;
 }
-
+/*button style*/
 .primary-bnt {
     color: #FFFFFF;
     font-size: 20px;
@@ -112,12 +112,13 @@ nav {
 }
 
 .second-section-header {
-    /*border missing*/
+    border-left: 5px solid #FF900E;
     color: #131313;
     border: 0px 0px 0px 5px;
     font-size: 45px;
     font-weight: 700;
     padding-bottom: 10px;
+    padding-left: 10px;
 
 }
 
@@ -237,5 +238,39 @@ nav {
     padding-top: 35px;
 }
 @media screen and (max-width:572px) {
-    
+    .header ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-contener {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    .main-section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .second-section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-btn .primary-bnt{
+        position: absolute;
+        top: 760%;
+        left: 45%;
+    }
+    .icons{
+        text-align: center;
+        display: flex; 
+        flex-direction: column;
+    }
+    .sponsor{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
