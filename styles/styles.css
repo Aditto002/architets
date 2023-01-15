@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .header {
@@ -219,7 +220,10 @@ nav {
     ;padding-bottom: 130px;
 }
 .sponsor-title img{
-    mix-blend-mode: luminosity;
+    
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      
 }
 .footer{
     width: 1200px;
